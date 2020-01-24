@@ -1,6 +1,6 @@
 #!/bin/sh
 
-PACKAGE_ID=04t0g000000RaGPAA0
+PACKAGE_ID=04to00000002TFkAAM
 PERMSET_NAME=my_permset_name
 
 while [ ! -n "$ORG_NAME"  ] 
