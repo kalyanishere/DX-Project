@@ -3,7 +3,7 @@
   "edition": "Enterprise",
   "description": "Welcome to Salesforce, Here is the Scratch org description",
   "adminEmail": "jmanchu@salesforce.com",
-  "features": ["AddCustomApps:30", "MaxCustomLabels:15", "AddHistoryFieldsPerEntity:25", "AddCustomTabs:30", "DebugApex", "MultiCurrency", "ProcessBuilder", "Sites", "Workflow", "ExternalSharing"],
+  "features": ["AddCustomApps:30", "MaxCustomLabels:15", "AddCustomTabs:30", "DebugApex", "MultiCurrency", "ProcessBuilder", "Sites", "Workflow", "ExternalSharing"],
   "settings": {
     "accountSettings": {
         "enableAccountOwnerReport": true,
@@ -57,11 +57,6 @@
     "socialProfileSettings": {
         "enableSocialProfiles": false
     },
-    "orgPreferenceSettings": {
-        "analyticsSharingEnable": true,
-        "verifyOn2faRegistration": true,
-        "localNames": true
-    },
     "apexSettings": {
         "enableDisableParallelApexTesting": false,
         "enableApexApprovalLockUnlock": true
@@ -69,13 +64,17 @@
     "securitySettings": {
         "passwordPolicies": {
             "enableSetPasswordInApi": true
+        },
+        "sessionSettings": {
+            "identityConfirmationOnTwoFactorRegistrationEnabled": true
         }
     },
     "chatterSettings": {
         "enableChatter": true
     },
     "languageSettings": {
-        "enableTranslationWorkbench": true
+        "enableTranslationWorkbench": true,
+        "enableLocalNamesForStdObjects": true
     },
     "enhancedNotesSettings": {
         "enableEnhancedNotes": true
@@ -83,5 +82,5 @@
     "lightningExperienceSettings": {
         "enableS1DesktopEnabled": true
     }
-  }
+}
 }
