@@ -3,7 +3,7 @@
   "edition": "Enterprise",
   "description": "Welcome to Salesforce, Here is the Scratch org description",
   "adminEmail": "jmanchu@salesforce.com",
-  "features": ["AddCustomApps:30", "MaxCustomLabels:15", "AddHistoryFieldsPerEntity:25", "AddCustomTabs:30", "DebugApex", "MultiCurrency", "ProcessBuilder", "Sites", "Workflow", "ExternalSharing"],
+  "features": ["AddCustomApps:30", "MaxCustomLabels:15", "AddCustomTabs:30", "DebugApex", "MultiCurrency", "ProcessBuilder", "Sites", "Workflow", "ExternalSharing"],
     "settings": {
         "accountSettings": {
             "enableAccountOwnerReport": true,
