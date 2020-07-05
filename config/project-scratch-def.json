@@ -1,9 +1,8 @@
 {
   "orgName": "Salesforce Demo",
   "edition": "Enterprise",
-  "defaultUserName": "kbalasubramanian@pabadger.test",
   "description": "Welcome to Salesforce, Here is the Scratch org description",
-  "adminEmail": "kbalasubramanian@salesforce.com",
+  "adminEmail": "jmanchu@salesforce.com",
   "features": ["AddCustomApps:30", "MaxCustomLabels:15", "AddHistoryFieldsPerEntity:25", "AddCustomTabs:30", "DebugApex", "MultiCurrency", "ProcessBuilder", "Sites", "Workflow", "ExternalSharing"],
   "settings": {
     "accountSettings": {
@@ -47,7 +46,7 @@
         "enableS1OfflinePref": true
     },
     "caseSettings": {
-        "systemUserEmail": "kbalasubramanian@salesforce.com"
+        "systemUserEmail": "jmanchu@salesforce.com"
     },
     "communitiesSettings": {
         "enableNetworksEnabled": false
