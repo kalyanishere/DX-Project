@@ -3,85 +3,84 @@
   "edition": "Enterprise",
   "description": "Welcome to Salesforce, Here is the Scratch org description",
   "adminEmail": "jmanchu@salesforce.com",
-  "features": ["AddCustomApps:30", "MaxCustomLabels:15", "AddHistoryFieldsPerEntity:25", "AddCustomTabs:30", "DebugApex", "MultiCurrency", "ProcessBuilder", "Sites", "Workflow", "ExternalSharing"],
-  "settings": {
-    "accountSettings": {
-        "enableAccountOwnerReport": true,
-        "enableAccountTeams": true,
-        "showViewHierarchyLink": true
-    },
-    "activitiesSettings": {
-        "autoRelateEventAttendees": false,
-        "enableActivityReminders": true,
-        "enableClickCreateEvents": true,
-        "enableDragAndDropScheduling": true,
-        "enableEmailTracking": true,
-        "enableGroupTasks": true,
-        "enableListViewScheduling": false,
-        "enableLogNote": false,
-        "enableMultidayEvents": true,
-        "enableRecurringEvents": true,
-        "enableRecurringTasks": true,
-        "enableSidebarCalendarShortcut": false,
-        "enableSimpleTaskCreateUI": false,
-        "enableUNSTaskDelegatedToNotifications": false,
-        "showCustomLogoMeetingRequests": false,
-        "showEventDetailsMultiUserCalendar": false,
-        "showHomePageHoverLinksForEvents": true,
-        "showMyTasksHoverLinks": true
-    },
-    "opportunitySettings": {
-        "autoActivateNewReminders": false,
-        "enableFindSimilarOpportunities": false,
-        "enableOpportunityTeam": true,
-        "enableUpdateReminders": true,
-        "promptToAddProducts": true
-    },
-    "omniChannelSettings": {
-        "enableOmniChannel": false,
-        "enableOmniSkillsRouting": false
-    },
-    "mobileSettings": {
-        "enableS1EncryptedStoragePref2": false,
-        "enableS1OfflinePref": true
-    },
-    "caseSettings": {
-        "systemUserEmail": "jmanchu@salesforce.com"
-    },
-    "communitiesSettings": {
-        "enableNetworksEnabled": false
-    },
-    "pathAssistantSettings": {
-        "pathAssistantEnabled": false
-    },
-    "socialProfileSettings": {
-        "enableSocialProfiles": false
-    },
-    "orgPreferenceSettings": {
-        "analyticsSharingEnable": true,
-        "verifyOn2faRegistration": true,
-        "localNames": true
-    },
-    "apexSettings": {
-        "enableDisableParallelApexTesting": false,
-        "enableApexApprovalLockUnlock": true
-    },
-    "securitySettings": {
-        "passwordPolicies": {
-            "enableSetPasswordInApi": true
+  "features": ["AddCustomApps:30", "MaxCustomLabels:15", "AddCustomTabs:30", "DebugApex", "MultiCurrency", "ProcessBuilder", "Sites", "Workflow", "ExternalSharing"],
+    "settings": {
+        "accountSettings": {
+            "enableAccountOwnerReport": true,
+            "enableAccountTeams": true,
+            "showViewHierarchyLink": true
+        },
+        "activitiesSettings": {
+            "autoRelateEventAttendees": false,
+            "enableActivityReminders": true,
+            "enableClickCreateEvents": true,
+            "enableDragAndDropScheduling": true,
+            "enableEmailTracking": true,
+            "enableGroupTasks": true,
+            "enableListViewScheduling": false,
+            "enableLogNote": false,
+            "enableMultidayEvents": true,
+            "enableRecurringEvents": true,
+            "enableRecurringTasks": true,
+            "enableSidebarCalendarShortcut": false,
+            "enableSimpleTaskCreateUI": false,
+            "enableUNSTaskDelegatedToNotifications": false,
+            "showCustomLogoMeetingRequests": false,
+            "showEventDetailsMultiUserCalendar": false,
+            "showHomePageHoverLinksForEvents": true,
+            "showMyTasksHoverLinks": true
+        },
+        "opportunitySettings": {
+            "autoActivateNewReminders": false,
+            "enableFindSimilarOpportunities": false,
+            "enableOpportunityTeam": true,
+            "enableUpdateReminders": true,
+            "promptToAddProducts": true
+        },
+        "omniChannelSettings": {
+            "enableOmniChannel": false,
+            "enableOmniSkillsRouting": false
+        },
+        "mobileSettings": {
+            "enableS1EncryptedStoragePref2": false,
+            "enableS1OfflinePref": true
+        },
+        "caseSettings": {
+            "systemUserEmail": "jmanchu@salesforce.com"
+        },
+        "communitiesSettings": {
+            "enableNetworksEnabled": false
+        },
+        "pathAssistantSettings": {
+            "pathAssistantEnabled": false
+        },
+        "socialProfileSettings": {
+            "enableSocialProfiles": false
+        },
+        "apexSettings": {
+            "enableDisableParallelApexTesting": false,
+            "enableApexApprovalLockUnlock": true
+        },
+        "securitySettings": {
+            "passwordPolicies": {
+                "enableSetPasswordInApi": true
+            },
+            "sessionSettings": {
+                "identityConfirmationOnTwoFactorRegistrationEnabled": true
+            }
+        },
+        "chatterSettings": {
+            "enableChatter": true
+        },
+        "languageSettings": {
+            "enableTranslationWorkbench": true,
+            "enableLocalNamesForStdObjects": true
+        },
+        "enhancedNotesSettings": {
+            "enableEnhancedNotes": true
+        },
+        "lightningExperienceSettings": {
+            "enableS1DesktopEnabled": true
         }
-    },
-    "chatterSettings": {
-        "enableChatter": true
-    },
-    "languageSettings": {
-        "enableTranslationWorkbench": true
-    },
-    "enhancedNotesSettings": {
-        "enableEnhancedNotes": true
-    },
-    "lightningExperienceSettings": {
-        "enableS1DesktopEnabled": true
     }
-  }
 }
